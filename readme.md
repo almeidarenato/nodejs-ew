@@ -21,3 +21,6 @@ Aula para exemplificar emissão de eventos com EventEmitter
 
 3.3 - Utilizando `Array.filter` para filtrar determinadas informações e também
 implementado um `Array.meuFilter` .
+
+3.4 - Utilizado `Array.reduce` para executar uma função de totalização de valores de um array (Reduzindo a um valor final).
+Também foi implementado um `Array.meuReduce` para exemplificar melhor como ele funciona
