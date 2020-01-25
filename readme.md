@@ -24,3 +24,8 @@ implementado um `Array.meuFilter` .
 
 3.4 - Utilizado `Array.reduce` para executar uma função de totalização de valores de um array (Reduzindo a um valor final).
 Também foi implementado um `Array.meuReduce` para exemplificar melhor como ele funciona
+
+## 04 - Testes automatizados com MochaJS (04-tests)
+
+Utilizamos o `mocha` para realizar testes automatizados com a chamada a api.
+Também usamos o `nock` para simular o resultado da api.
