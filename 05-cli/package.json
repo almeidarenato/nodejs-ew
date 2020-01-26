@@ -1,0 +1,7 @@
+{
+  "name": "05-cli",
+  "version": "1.21.1",
+  "main": "index.js",
+  "author": "Renato Almeida",
+  "license": "MIT"
+}
