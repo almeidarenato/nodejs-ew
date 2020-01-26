@@ -29,3 +29,6 @@ Também foi implementado um `Array.meuReduce` para exemplificar melhor como ele 
 
 Utilizamos o `mocha` para realizar testes automatizados com a chamada a api.
 Também usamos o `nock` para simular o resultado da api.
+
+## 05 - Usando Node como ferramenta de linha de comando
+Foi feita a leitura e busca de registros em um arquivo `JSON` com o desenvolvimento orientado a testes pelo `mocha` .

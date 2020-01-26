@@ -3,5 +3,11 @@
   "version": "1.21.1",
   "main": "index.js",
   "author": "Renato Almeida",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  }
 }
