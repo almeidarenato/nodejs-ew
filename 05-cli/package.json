@@ -8,6 +8,6 @@
     "mocha": "^7.0.1"
   },
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha -w"
   }
 }
