@@ -52,4 +52,7 @@ describe("Suite de manipulação de herois", () => {
     const [resultado] = await database.listar(DEFAULT_ITEM_ATUALIZAR.id);
     deepEqual(resultado, expected);
   });
+  after(async () => {
+    database.remover(2);
+  });
 });
