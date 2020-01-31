@@ -32,4 +32,4 @@ Também usamos o `nock` para simular o resultado da api.
 
 ## 05 - Usando Node como ferramenta de linha de comando
 
-Foi feita a leitura, busca e escrita de registros em um arquivo `JSON` com o desenvolvimento orientado a testes pelo `mocha` .
+Foi feita a leitura, busca , escrita ,atualização e exclusão de registros em um arquivo `JSON` com o desenvolvimento orientado a testes pelo `mocha` .
