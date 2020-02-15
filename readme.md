@@ -36,13 +36,15 @@ Foi feita a leitura, busca , escrita ,atualização e exclusão de registros em 
 Foi criada uma interface de `CLI` usando o `commander` para utilizar os métodos implementados.
 Comandos do Terminal
 Para utilizar execute dentro da pasta 05-cli o comand `node index [option]`
+
 Opções disponíveis:
--V, --version Versão
--n, --nome [value] Nome do Herói
--p, --poder [value] Poder do Herói
--c, --cadastrar Cadastrar um Heroi
--i, --id [value] Id do Heroi
--l, --listar Lista os heróis
--r, --remover Remove um heroi pelo id
--a, --atualizar [value] Atualiza um heroi pelo id
--h, --help Lista os comandos disponíveis
+
+-V, --version Versão\
+ -n, --nome [value] Nome do Herói\
+ -p, --poder [value] Poder do Herói\
+ -c, --cadastrar Cadastrar um Heroi\
+ -i, --id [value] Id do Heroi\
+ -l, --listar Lista os heróis\
+ -r, --remover Remove um heroi pelo id\
+ -a, --atualizar [value] Atualiza um heroi pelo id\
+ -h, --help Lista os comandos disponíveis
