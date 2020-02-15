@@ -32,12 +32,17 @@ class Database {
 
   async listar(id) {
     const dados = await this.obterDadosArquivo();
-    const dadosFiltrados = dados.filter(item => {
-      if (!id) return true; // retorna todos os items se o id for falso
-      if (item.id === id) return true; // retorna apenas o item com id igual
-      // ou id ? item.id === id : true
-    });
-    return dadosFiltrados;
+    try {
+      const dadosFiltrados = dados.filter(item => {
+        if (!id) return true; // retorna todos os items se o id for falso
+        if (item.id === id) return true; // retorna apenas o item com id igual
+        // ou id ? item.id === id : true
+      });
+      return dadosFiltrados;
+    } catch (err) {
+      console.log(`ops não há dados disponíveis ${err}`);
+      return "";
+    }
   }
 
   async remover(id) {
