@@ -9,5 +9,8 @@
   },
   "scripts": {
     "test": "mocha -w"
+  },
+  "dependencies": {
+    "commander": "^4.1.0"
   }
 }
